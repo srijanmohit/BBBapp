@@ -1,0 +1,56 @@
+<view
+  class="landingPageContainer appMargin"
+>
+  <view class="pageTitleContainer divMargin">
+    <view class="pageTitle">
+      Srijan Makeup Mini Program
+    </view>
+  </view>
+  <view onTap="redirectToAssist" class="homeIcons divMargin">
+    <block 
+      a:for="{{icons}}"
+      a:for-item="item"
+      a:for-index="idx"
+      id="{{idx}}"
+      value="{{idx}}"
+    >
+      <view class="landingIconsContainer">
+        <image
+          mode=""
+          src="./images/{{item}}.png"
+          class="landingIcons"
+        />
+        <view class="iconName">{{item}}</view>
+      </view>
+    </block>
+  </view>
+  <view class="collectionsContainer">
+    <view class="collectionsTitle">
+      Collections
+    </view>
+    <view class="collectionsItemContainer divMargin">
+      <block
+        a:for="{{collections}}"
+        a:for-item="item"
+        a:for-index="idx"
+        id="{{idx}}"
+        value="{{idx}}"
+      >
+        <view class="collectionsItem" onTap="redirectToDetails">
+          <view class="collectionsImgContainer">
+            <image
+              class="collectionsImg"
+              mode=""
+              src="./images/collections/{{item}}.png"/
+            >
+          </view>
+          <view class="collectionsName">
+            {{item}}
+          </view>
+        </view>
+      </block>
+    </view>
+    
+  </view>
+</view>
+

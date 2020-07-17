@@ -1,0 +1,64 @@
+.landingPageContainer {
+  background: #d9d2e8
+}
+
+.homeIcons {
+  width:100%;
+  height:49vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly
+}
+
+.landingIconsContainer{
+  width: 33%;
+  height: 127px
+}
+
+.landingIcons{
+  width: 100%;
+  height: 100%;
+}
+
+.iconName{
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.collectionsContainer{
+  width: 100%;
+  height: 40vh;
+  background: #b4a7d6;
+}
+
+.collectionsTitle {
+  text-align: center;
+  font-style: oblique;
+  font-size: 27px;
+  margin-top: 5px;
+  padding-top:15px;
+}
+
+.collectionsItemContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.collectionsItem{
+  background: white;
+  width: 24%;
+  height: 170px;
+  border-radius: 12px;
+}
+
+.collectionsImg {
+  width:100%;
+  height: 128px;
+  margin-top: 11px;
+}
+
+.collectionsName {
+  text-align: center
+}

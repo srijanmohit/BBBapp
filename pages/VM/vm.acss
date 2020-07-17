@@ -1,0 +1,9 @@
+.vmImageContainer {
+  width: 100%;
+  height: 100%;
+}
+
+.vmImage {
+  width: 100%;
+  height: 86vh;
+}

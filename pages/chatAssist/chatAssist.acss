@@ -1,0 +1,15 @@
+/* required by usingComponents */
+
+.frstQButtonDiv{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-evenly;
+}
+
+.frstQButton {
+  flex-basis:150px;
+}
+
+.calendarImg{
+  margin-left: 11px
+}

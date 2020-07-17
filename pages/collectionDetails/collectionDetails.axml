@@ -1,0 +1,13 @@
+<view
+  class="appMargin"
+>
+  <view class="pageTitleContainer divMargin">
+    <view class="pageTitle">
+      Makeup Mini Program - Lipsticks
+    </view>
+  </view>
+  <view class="vmImageContainer">
+    <image class="vmImage" mode="scaleToFill" src="./lipstickDetails.png"/>
+  </view>
+</view>
+

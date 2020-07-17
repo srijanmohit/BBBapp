@@ -1,0 +1,42 @@
+page {
+  background: #f7f7f7;
+  font-family:"Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.byAssist {
+  margin:10px 90px 10px 10px;
+  padding:31px;
+  background:pink;
+  border-radius:20px;
+}
+
+.byUser{
+  background: rgb(184, 255, 184);
+  padding:15px;
+  border-radius: 20px
+}
+
+.byUserContainer{
+  margin:10px 10px 10px 90px;
+}
+
+.appMargin{
+  margin: 0% 2%;
+}
+
+.divMargin {
+  margin: 4% 0%;
+}
+
+.pageTitleContainer {
+  background:rgb(244, 204, 204);
+  height:8vh;
+  text-align: center
+}
+
+.pageTitle{
+  padding-top: 3%;
+  width: 100%;
+  font-style: oblique;
+  font-size: 27px
+}

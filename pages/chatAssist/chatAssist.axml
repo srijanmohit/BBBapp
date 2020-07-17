@@ -1,0 +1,52 @@
+<view class="appMargin">
+  
+  <view class="pageTitleContainer divMargin">
+    <view class="pageTitle">
+      Your Virtual Assistant
+    </view>
+  </view>
+  <view
+    a:for="{{renderQuestions}}"
+    a:for-item="item"
+    a:for-index="idx"
+    id="{{idx}}"
+    value="{{idx}}"
+  >
+    <view class="byAssist">
+      {{item.ques}}
+    </view>
+
+    <view class="calendarImg" a:if="{{item.display === `calendar`}}">
+      <image mode="scaleToFill" src="./calendar.png"/>
+    </view>
+
+    <view 
+      class="frstQButtonDiv"
+      a:if='{{!item.userResponse}}'
+    >
+      <button
+        size="default"
+        type="primary"
+        onTap="userResHandler"
+        class="frstQButton"
+        a:for="{{item.options}}"
+        a:for-item="optionItem"
+        data-index="{{userRes: optionItem, id: item.id }}"
+      >
+        <view class="buttonText">
+          {{optionItem}}
+        </view>
+      </button>
+    </view>
+
+    <view a:if="{{item.userResponse}}" class="byUserContainer"> 
+      <view class="byUser">
+        {{item.userResponse}}
+      </view>
+      <view class="userResAction" a:if="{{slectedQOneValue === buttonText2}}">
+        Redirecting to consultant...
+      </view>
+    </view>
+  </view>
+
+</view>

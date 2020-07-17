@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/chatAssist/chatAssist",
+    "pages/VM/vm",
+    "pages/liveChat/liveChat",
+    "pages/collectionDetails/collectionDetails"
+  ],
+  "window": {
+    "defaultTitle": "Srijan Mini Program"
+  }
+}
